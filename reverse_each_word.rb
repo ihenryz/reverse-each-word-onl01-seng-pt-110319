@@ -11,7 +11,5 @@ require 'pry'
 
 
 def reverse_each_word(string)
-  split_string = string.split(" ") #=> splits string into seperate parts
-  string.split.each()
-  binding.pry
+  string.split("")
 end
